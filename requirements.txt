@@ -1,0 +1,30 @@
+# CEO Karma AI - Requirements
+# A satirical project to replace CEOs with AI
+
+# LangGraph and LangChain dependencies
+langgraph>=0.0.19
+langchain>=0.0.335
+langchain-core>=0.1.15
+langchain-openai>=0.0.5
+
+# Utility libraries
+python-dotenv>=1.0.0  # For environment variable management
+pydantic>=2.5.0       # For data validation
+typing-extensions>=4.8.0  # For improved type hinting
+
+# API clients
+openai>=1.1.0         # OpenAI API client
+
+# Data processing
+numpy>=1.24.0         # Numerical processing
+pandas>=2.1.0         # Data analysis
+
+# Web framework (for possible future API development)
+fastapi>=0.109.0      # API framework
+uvicorn>=0.24.0       # ASGI server
+
+# Development dependencies
+pytest>=7.4.0         # Testing
+black>=23.9.0         # Code formatting
+isort>=5.12.0         # Import sorting
+mypy>=1.5.0           # Type checking
